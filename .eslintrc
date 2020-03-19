@@ -1,0 +1,14 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "prefer-arrow-callback": "off",
+    "func-names": "off",
+    "arrow-parens": [2, "always"]
+  },
+  "env": {
+    "browser": true,
+    "mongo": true,
+    "node": true,
+    "jest": true
+  }
+}
