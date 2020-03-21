@@ -3,7 +3,10 @@
   "rules": {
     "prefer-arrow-callback": "off",
     "func-names": "off",
-    "arrow-parens": [2, "always"]
+    "arrow-parens": [2, "always"],
+    "quote-props": "off",
+    "quotes": ["error", "double"],
+    "comma-dangle": "off"
   },
   "env": {
     "browser": true,
