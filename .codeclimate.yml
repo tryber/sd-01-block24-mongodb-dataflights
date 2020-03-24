@@ -33,7 +33,5 @@ checks:
 plugins:
   editorconfig:
     enabled: true
-  eslint:
-    enabled: true
   fixme:
     enabled: true
