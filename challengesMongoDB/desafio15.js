@@ -1,2 +1,2 @@
 use dataFlights;
-db.voos.find({'aeroportoDestino.continente': {$nin: ['EUROPA', 'ÁSIA', 'OCEANIA']}}).count();
+db.voos.count({$nor: [{'aeroportoDestino.continente': 'EUROPA'}, {'aeroportoDestino.continente': 'ÁSIA'}, {'aeroportoDestino.continente': 'OCEANIA'}]});
