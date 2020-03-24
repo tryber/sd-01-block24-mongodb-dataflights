@@ -1,2 +1,2 @@
 use dataFlights;
-db.voos.find({ "rtk": { $exists: false } }, { vooId: 1 } ).limit(1);
+db.voos.findOne({ "rtk": { $exists: false } }, { vooId: 1 } );
