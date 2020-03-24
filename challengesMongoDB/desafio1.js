@@ -1,3 +1,3 @@
 show dbs;
-// ou;
+// ou
 show databases;
