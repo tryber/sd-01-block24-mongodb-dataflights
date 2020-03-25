@@ -5,4 +5,3 @@
   use dataFlights
   show collections
 */
-
