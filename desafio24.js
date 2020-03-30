@@ -9,4 +9,3 @@ db.voos.findOne({
     { "aeroportoOrigem.sigla":"SBGR" }
   ]
 }, {vooId:1});
-

@@ -5,4 +5,3 @@ db.voos.findOne({
     {litrosCombustivel: {$exists: true}}
   ]
 },{vooId:1,litrosCombustivel:1});
-

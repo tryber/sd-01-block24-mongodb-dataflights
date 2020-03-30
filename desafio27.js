@@ -7,4 +7,3 @@ db.voos.deleteMany({
 });
 
 { "acknowledged" : true, "deletedCount" : 538 };
-

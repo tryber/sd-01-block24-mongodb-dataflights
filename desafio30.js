@@ -10,4 +10,3 @@ db.resumoVoos.insertOne({
   empresa:"AZUL",
   totalVoosDomesticos:39092
 });
-

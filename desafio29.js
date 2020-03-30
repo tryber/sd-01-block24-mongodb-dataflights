@@ -10,4 +10,3 @@ db.resumoVoos.insertOne({
   empresa:"GOL",
   totalVoosDomesticos:25805
 });
-
